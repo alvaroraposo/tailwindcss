@@ -32274,6 +32274,22 @@ a {
   content: none;
 }
 
+.p-21 {
+  padding: 5.5rem;
+}
+
+.p-21 {
+  padding: 5.5rem;
+}
+
+.hover\:p-21:hover {
+  padding: 5.5rem;
+}
+
+.focus\:p-21:focus {
+  padding: 5.5rem;
+}
+
 .btn {
   padding-left: 1rem;
   padding-right: 1rem;
