@@ -1,4 +1,7 @@
-body {
-  padding: 0;
-  margin: 0;
-}
+/* tailwindcss utility classes */
+/* ! tab - html snippet
+    lorem20 tab - lorem text
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
