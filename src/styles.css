@@ -6,6 +6,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  a {
+    @apply text-blue-600 underline;
+  }
+}
+
 .btn {
   @apply py-2 px-4 font-semibold;
 }
