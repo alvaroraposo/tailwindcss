@@ -24,7 +24,7 @@
   }
 }
 
-@variants hover {
+@media screen(md) {
   .rotate-10 {
     transform: rotate(10deg);
   }

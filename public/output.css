@@ -32278,12 +32278,10 @@ a {
   padding: 5.5rem;
 }
 
-.rotate-10 {
-  transform: rotate(10deg);
-}
-
-.hover\:rotate-10:hover {
-  transform: rotate(10deg);
+@media (min-width: 768px) {
+  .rotate-10 {
+    transform: rotate(10deg);
+  }
 }
 
 .btn {
