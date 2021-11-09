@@ -32278,16 +32278,12 @@ a {
   padding: 5.5rem;
 }
 
-.p-21 {
-  padding: 5.5rem;
+.rotate-10 {
+  transform: rotate(10deg);
 }
 
-.hover\:p-21:hover {
-  padding: 5.5rem;
-}
-
-.focus\:p-21:focus {
-  padding: 5.5rem;
+.hover\:rotate-10:hover {
+  transform: rotate(10deg);
 }
 
 .btn {

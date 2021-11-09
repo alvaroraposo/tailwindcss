@@ -22,10 +22,11 @@
   .p-21 {
     padding: 5.5rem;
   }
-  @variants hover, focus {
-    .p-21 {
-      padding: 5.5rem;
-    }
+}
+
+@variants hover {
+  .rotate-10 {
+    transform: rotate(10deg);
   }
 }
 
