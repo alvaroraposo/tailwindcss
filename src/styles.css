@@ -1,40 +1,7 @@
-/* tailwindcss utility classes */
-/* ! tab - html snippet
-    lorem20 tab - lorem text
-    npx tailwindcss init
-*/
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer base {
-  a {
-    @apply text-blue-600 underline;
-  }
-}
-
-@layer components {
-  .btn-red {
-    @apply rounded-full px-2 py-1 bg-red-500 hover:bg-red-700;
-  }
-}
-
-@layer utilities {
-  .p-21 {
-    padding: 5.5rem;
-  }
-}
-
-@media screen(md) {
-  .rotate-10 {
-    transform: rotate(10deg);
-  }
-}
-
 .btn {
-  @apply py-2 px-4 font-semibold;
+  @apply p-3;
 }
 
-.btn-green {
-  @apply rounded-lg shadow-md text-white bg-green-500 hover:bg-green-700;
+input::placeholder {
+  color: black;
 }
