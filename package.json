@@ -1,0 +1,23 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i src/styles.css -o public/output.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvaroraposo/tailwindcss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvaroraposo/tailwindcss/issues"
+  },
+  "homepage": "https://github.com/alvaroraposo/tailwindcss#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
