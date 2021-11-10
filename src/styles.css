@@ -1,4 +1,3 @@
-.bg-content {
-  @apply active:bg-indigo-400;
-  @apply visited:text-blue;
+.new-btn {
+  @apply hover:scale-1 sm:rotate-1;
 }

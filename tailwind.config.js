@@ -1,3 +1,4 @@
+const plugin = require("tailwindcss/plugin");
 module.exports = {
   //npx tailwindcss init generates this file
   // npm install postcss autoprefixer postcss-cli
@@ -27,5 +28,15 @@ module.exports = {
       textColor: ["visited"],
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(({ addUtilities }) => {
+      const newUtilities = {
+        ".scale-1": { transform: "scale(2)" },
+        ".rotate-1": { transform: "rotate(10deg)" },
+      };
+      addUtilities(newUtilities, {
+        variants: ["responsive", "hover"],
+      });
+    }),
+  ],
 };

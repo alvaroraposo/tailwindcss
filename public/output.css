@@ -1,4 +1,12 @@
-.bg-content:active {
-    --tw-bg-opacity: 1;
-    background-color: rgba(129, 140, 248, var(--tw-bg-opacity))
+.new-btn:hover {
+    transform: scale(2)
+}
+@media (min-width: 640px) {
+    .new-btn {
+        --tw-rotate: 1deg;
+        transform: var(--tw-transform)
+    }
+    .new-btn {
+        transform: rotate(10deg)
+    }
 }
