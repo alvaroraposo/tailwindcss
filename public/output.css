@@ -1,5 +1,4 @@
-.content {text-align: center
-}@media (min-width: 1600px) {.content {text-align: left
-    }
-}.content {padding: 3.25rem;--tw-text-opacity: 1;color: rgba(36, 60, 90, var(--tw-text-opacity))
+.bg-content:active {
+    --tw-bg-opacity: 1;
+    background-color: rgba(129, 140, 248, var(--tw-bg-opacity))
 }

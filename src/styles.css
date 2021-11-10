@@ -1,4 +1,4 @@
-.content {
-  @apply text-center 3xl:text-left;
-  @apply text-regal-blue p-13;
+.bg-content {
+  @apply active:bg-indigo-400;
+  @apply visited:text-blue;
 }
