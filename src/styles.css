@@ -1,3 +1,4 @@
-.button {
-  @apply text-indigo text-indigo-dark p-2;
+.content {
+  @apply text-center 3xl:text-left;
+  @apply text-regal-blue p-13;
 }

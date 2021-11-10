@@ -1,7 +1,5 @@
-.button {
-    padding: 0.75rem;
-    --tw-text-opacity: 1;
-    color: rgba(92, 106, 196, var(--tw-text-opacity));
-    --tw-text-opacity: 1;
-    color: rgba(32, 46, 120, var(--tw-text-opacity))
+.content {text-align: center
+}@media (min-width: 1600px) {.content {text-align: left
+    }
+}.content {padding: 3.25rem;--tw-text-opacity: 1;color: rgba(36, 60, 90, var(--tw-text-opacity))
 }
