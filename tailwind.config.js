@@ -23,20 +23,29 @@ module.exports = {
     },
   },
   variants: {
+    customPlugin: ["responsive", "hover"],
     extend: {
       backgroundColor: ["active"],
       textColor: ["visited"],
     },
   },
+  prefix: "dt-",
   plugins: [
-    plugin(({ addUtilities }) => {
-      const newUtilities = {
-        ".scale-1": { transform: "scale(2)" },
-        ".rotate-1": { transform: "rotate(10deg)" },
+    plugin(({ addComponents, variants }) => {
+      const button = {
+        ".btn": {
+          padding: ".5rem 1rem",
+          fontWeight: "600",
+        },
+        ".btn-blue": {
+          color: "#fff",
+          "&:hover": {
+            color: "#000",
+          },
+        },
       };
-      addUtilities(newUtilities, {
-        variants: ["responsive", "hover"],
-      });
+
+      addComponents(button, variants("customPlugin"));
     }),
   ],
 };

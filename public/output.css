@@ -1,12 +1,4 @@
-.new-btn:hover {
-    transform: scale(2)
-}
-@media (min-width: 640px) {
-    .new-btn {
-        --tw-rotate: 1deg;
-        transform: var(--tw-transform)
-    }
-    .new-btn {
-        transform: rotate(10deg)
-    }
+.component {
+    padding: .5rem 1rem;
+    font-weight: 600
 }
