@@ -1,8 +1,3 @@
-/* tailwindcss utility classes */
-/* ! tab - html snippet
-    lorem20 tab - lorem text
-    npx tailwindcss init
-*/
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+.button {
+  @apply text-indigo text-indigo-dark p-2;
+}
