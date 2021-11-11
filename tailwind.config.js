@@ -31,21 +31,13 @@ module.exports = {
   },
   prefix: "dt-",
   plugins: [
-    plugin(({ addComponents, variants }) => {
-      const button = {
-        ".btn": {
-          padding: ".5rem 1rem",
-          fontWeight: "600",
-        },
-        ".btn-blue": {
-          color: "#fff",
-          "&:hover": {
-            color: "#000",
-          },
-        },
+    plugin(({ addBase, theme }) => {
+      const heading = {
+        h1: { fontSize: theme("fontSize.xl") },
+        h2: { fontSize: theme("spacing.6") },
+        h3: { fontSize: "15px" },
       };
-
-      addComponents(button, variants("customPlugin"));
+      addBase(heading);
     }),
   ],
 };
