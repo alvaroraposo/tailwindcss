@@ -5,7 +5,7 @@ module.exports = {
   // npx tailwindcss init -p
   /* Removes unused styles from the production files */
   purge: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: "class", // or 'media' or 'class'
   theme: {
     extend: {},
   },
