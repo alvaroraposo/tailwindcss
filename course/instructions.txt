@@ -1,0 +1,39 @@
+Course from: https://www.youtube.com/watch?v=lZp4salRFFc
+nvm alias default 14 => set default version of node
+
+Introduction - What we are going to learn
+- How Predefined Classes are used in Tailwindcss
+- Install Tailwindcss
+    - 2 methods
+- Core Concepts
+- @Directives & JIT (Just in Time Compiler)
+- Customization & Plugin
+
+Getting Started
+- Utility-first CSS Framework
+    - "w-14 h-14" direct in the html file instead of a class in separate file
+
+1. Installation
+    - npm init -y // initialize node
+    - npm install tailwindcss (npm install -D tailwindcss postcss autoprefixer vite)
+    - npx tailwindcss init create tailwind.config.css
+    - create folders src and public
+    - src => css files
+    - public => output files
+    - create styles.css file inside src
+    - compile file and generate output file (standard css)
+    - 'build' script in package.json
+    - --watch flag to recompile automatically
+
+2. Utilities
+    - replace style.css with Utilities Directives // see output.css
+    - /public create index.html
+        - (!+tab or html+tab generate html snippet)
+        - lorem20 (20 words)
+    - install liveserver extension
+    - inside html file (right click open with liveserver)
+    - insert link tag (linkcss tab)
+    - class font-mono
+    - tailwind.config.js content: ["./public/**/*.{html,js}"],
+
+3. Install using cdn
