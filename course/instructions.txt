@@ -37,3 +37,16 @@ Getting Started
     - tailwind.config.js content: ["./public/**/*.{html,js}"],
 
 3. Install using cdn
+    - cdnjs.com/libraries/tailwindcss
+    - copy link 
+    - disadvantages 
+        - can't customize 
+        - can't @apply, @variants
+        - can't third-party plugins
+        - can't remove unused styles
+        - recommend npm install
+
+4. Breakpoints
+    - tailwind docs Container
+5. Flex
+    - tailwind docs flex
