@@ -50,3 +50,19 @@ Getting Started
     - tailwind docs Container
 5. Flex
     - tailwind docs flex
+6. Grid
+    - tailwind docs grid
+    - Disadvatages of Inline style
+        CSS strops growing
+        - Changes Feels Safer
+        - Class names
+    - Why not just use inline style
+        - Responsive design
+        - Pseudo selector
+7. Utility First API
+    - @apply
+8. Conditional styles
+    - conditional Breakpoints
+    - Tailwindcss docs Responsive Design
+9. Pseudo Selectors
+    - Tailwindcss docs Hover, Focus & Other States
