@@ -66,3 +66,9 @@ Getting Started
     - Tailwindcss docs Responsive Design
 9. Pseudo Selectors
     - Tailwindcss docs Hover, Focus & Other States
+10. Directives
+    - @tailwind base, components, Utilities
+    - preflight
+11. Components (directive)
+12. Utilities
+    - documentation padding utility class
