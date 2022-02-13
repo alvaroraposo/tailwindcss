@@ -72,3 +72,11 @@ Getting Started
 11. Components (directive)
 12. Utilities
     - documentation padding utility class
+13. How @Directives works
+    - output.css 
+    - @apply directives inline into your css
+14. Layer Directives
+15. Variants
+    -   hover, focus, etc
+16. Functions
+    - Screen

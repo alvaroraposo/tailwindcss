@@ -1,0 +1,11 @@
+@tailwind variants hover, focus {
+  .rotate-0 {
+    transform: rotate(0deg);
+  }
+}
+
+@tailwind utilities responsive {
+  .rotate-0 {
+    transform: rotate (0deg);
+  }
+}

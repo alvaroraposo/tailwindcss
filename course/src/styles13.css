@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .p-21 {
+    padding: 5.5rem;
+  }
+
+  @variants hover {
+    .p-21 {
+      padding: 5.5rem;
+    }
+  }
+}

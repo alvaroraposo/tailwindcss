@@ -1,14 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@layer utilities {
-  .p-21 {
-    padding: 5.5rem;
+/* @media screen(2xl) {
+  .rotate-0 {
+    transform: rotate(0deg);
   }
+} 
 
-  @variants hover {
-    .p-21 {
-      padding: 5.5rem;
-    }
+@screen sm {
+  .rotate-0 {
+    transform: rotate(0deg);
   }
+}*/
+
+.content-area {
+  height: theme("height.60");
 }

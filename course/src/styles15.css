@@ -1,0 +1,17 @@
+@layer base {
+  .btn {
+    @apply p-3;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply p-4;
+  }
+}
+
+@layer utilities {
+  .btn {
+    @apply p-5;
+  }
+}

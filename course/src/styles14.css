@@ -1,0 +1,8 @@
+.btn {
+  @apply font-bold py-2 p-4 rounded;
+  @apply p-4; /*ovewrites*/
+}
+
+.btn-blue {
+  @apply bg-blue-500 focus:bg-blue-700;
+}
