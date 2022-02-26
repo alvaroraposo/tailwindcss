@@ -16,7 +16,7 @@ Getting Started
 1. Installation
     - npm init -y // initialize node
     - npm install tailwindcss (npm install -D tailwindcss postcss autoprefixer vite)
-    - npx tailwindcss init create tailwind.config.css
+    - npx tailwindcss init // create tailwind.config.css
     - create folders src and public
     - src => css files
     - public => output files
