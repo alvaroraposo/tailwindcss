@@ -9,4 +9,4 @@ content: ["*.{html,js}"],
 
 heroicons.com
 
-25min
+45min
